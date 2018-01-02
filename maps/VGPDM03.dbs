@@ -63,4 +63,119 @@ maps
 		defaultwalltexture = "Q2TX0757";
 		defaultbottomtexture = "Q2TX0757";
 	}
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "Q2TX0746";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "E:\\Doom\\Iwads\\Doom2.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 2;
+				location = "E:\\Git\\VGP-Deathmatch\\VGP-Deathmatch.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "Q2TX0757";
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 518;
+				activetab = true;
+			}
+		}
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				yscalefloor = 1;
+				ypanningceiling = 1;
+				lightceiling = 0;
+				xpanningceiling = 1;
+				lightcolor = 0;
+				xpanningfloor = 1;
+				rotationceiling = 1;
+				rotationfloor = 1;
+			}
+			
+			linedef
+			{
+				no_grab = 2;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				light = 0;
+				offsety_bottom = 1;
+				offsetx_mid = 1;
+			}
+		}
+		viewpositionx = -668.5168f;
+		viewpositiony = -4000.731f;
+		viewscale = 0.09919147f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "Q2TX0408";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "Q2TX0757";
+		defaultbottomtexture = "Q2TX0757";
+	}
 }

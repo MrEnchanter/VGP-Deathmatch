@@ -1,0 +1,6 @@
+map MAP01 "Bitterman's Revenge"
+
+next "MAP03"
+secretnext "MAP03"
+sky1 "SKY1B"
+music "DM_NIN"
